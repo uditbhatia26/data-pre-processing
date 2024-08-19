@@ -16,8 +16,8 @@ sex: Gender
 salary: Salary class (e.g., <=50K, >50K)
 
 
-# Data Cleaning Steps <br>
-# Import Libraries
+# <ul> Data Cleaning Steps 
+# <li> Import Libraries
 
 Imported necessary libraries: numpy, pandas, seaborn, and matplotlib.
 Read Dataset
