@@ -1,10 +1,10 @@
 # Dataset Cleaning
 
 
-Overview
+# Overview
 This repository contains the code and documentation for cleaning a dataset involving demographic and employment-related features. The primary aim was to preprocess the data to ensure its quality and suitability for analysis or machine learning tasks.
 
-Dataset
+# Dataset<br>
 The dataset includes the following features:
 
 age: Age of the individual
@@ -14,8 +14,10 @@ workclass: Type of employment
 occupation: Job role
 sex: Gender
 salary: Salary class (e.g., <=50K, >50K)
-Data Cleaning Steps
-Import Libraries
+
+
+# Data Cleaning Steps <br>
+# Import Libraries
 
 Imported necessary libraries: numpy, pandas, seaborn, and matplotlib.
 Read Dataset
