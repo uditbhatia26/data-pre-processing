@@ -34,16 +34,21 @@ education: Removed as there was a numeric equivalent (education-num) that provid
 # <li> Handle Missing Values
 
 Replaced all '?' values in the occupation and workclass features with null. <br>
-Dropped rows with null values in the occupation feature and filled remaining null values with the mode of that feature. <br>
+Dropped rows with null values in the occupation feature and filled remaining null values with the mode of the workclass feature. <br>
 
 # <li> Scaling Numerical Data
 
-Applied scaling to all numerical features to ensure consistency and improve model performance.
+Applied feature scaling to all numerical features to ensure consistency and improve model performance. <br>
+Imported necessary functions from scikit-learn (in this case: MinMaxScaler)<br>
+Applied the Min Max scaling method to all numerical features in the dataset to standardize their range and ensure consistent input for subsequent modeling.
 
 # <li> Encoding Categorical Columns
 
-Encoded all categorical features to convert them into a format suitable for machine learning models.
+Encoded all categorical features to convert them into a format suitable for machine learning models. <br>
+For example Lable Encoding was done on the target ie: Salary in this case <br>
+The rest of the categorical features were encoded using one hot encoding <br>
 
 # <li> Outlier Treatment
 
-Addressed outliers to improve the quality of the data and the performance of any models using this dataset.
+Addressed outliers to improve the quality of the data and the performance of any models using this dataset. <br>
+The numerical features were scaled earlier in order to reduce the number of outliers. The remainig outliers were treated using this technique 
