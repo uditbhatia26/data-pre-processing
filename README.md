@@ -7,8 +7,8 @@ This repository contains the code and documentation for cleaning a dataset invol
 # Dataset<br>
 The dataset includes the following features:
 
-age: Age of the individual
-education-num: Numeric representation of the education level
+age: Age of the individual <br>
+education-num: Numeric representation of the education level <br>
 hours-per-week: Hours worked per week
 workclass: Type of employment
 occupation: Job role
